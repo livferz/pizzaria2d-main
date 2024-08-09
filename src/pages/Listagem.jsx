@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import pizzas from '../shared/Pizzas'
+import pizzas from '../assets/Pizzas'
+
 const Listagem = () => {
 const ItensLista = () => pizzas.map(
 pizza =>
